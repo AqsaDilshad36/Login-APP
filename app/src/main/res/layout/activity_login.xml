@@ -61,7 +61,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="please enter your password"
-        android:layout_marginHorizontal="40dp"/>
+        android:layout_marginHorizontal="40dp" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -79,7 +80,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forgot password"
+        android:text="Forgot password?"
         android:textStyle="normal"
         android:textColor="#FB344F"
         android:paddingLeft="90dp"/>
