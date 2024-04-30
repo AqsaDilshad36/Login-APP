@@ -45,6 +45,9 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:hint="sophat.leat@nintrea.live"
+           android:drawableLeft="@drawable/baseline_email_24"
+           android:drawablePadding="8dp"
+           android:drawableTint="#A9A9A9"
            android:layout_marginHorizontal="40dp"/>
 
     <TextView
@@ -61,6 +64,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="please enter your password"
+        android:drawableRight="@drawable/eye"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="8dp"
+        android:drawableTint="#A9A9A9"
         android:layout_marginHorizontal="40dp" />
 
 
@@ -78,6 +85,7 @@
         android:textStyle="normal"/>
 
     <TextView
+        android:id="@+id/forgotbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forgot password?"
@@ -92,6 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
+        android:textSize="20dp"
         android:paddingStart="90dp"
         android:paddingEnd="90dp"
         android:hint="Login"/>
