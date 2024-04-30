@@ -48,14 +48,14 @@
            android:drawableLeft="@drawable/baseline_email_24"
            android:drawablePadding="8dp"
            android:drawableTint="#A9A9A9"
-           android:layout_marginHorizontal="40dp"/>
+           android:layout_marginHorizontal="15dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Password"
         android:layout_marginHorizontal="40dp"
-        android:paddingTop="10dp"
+        android:paddingTop="30dp"
         android:textStyle="bold"
         android:textColor="#4E0189"
         android:textSize="14dp"/>
@@ -68,7 +68,7 @@
         android:drawableLeft="@drawable/lock"
         android:drawablePadding="8dp"
         android:drawableTint="#A9A9A9"
-        android:layout_marginHorizontal="40dp" />
+        android:layout_marginHorizontal="15dp" />
 
 
     <LinearLayout
@@ -80,7 +80,7 @@
         android:layout_height="wrap_content"
         android:text="Remember Me"
         android:layout_marginHorizontal="40dp"
-        android:paddingTop="15dp"
+        android:paddingTop="20dp"
         android:textColor="#000C14"
         android:textStyle="normal"/>
 
@@ -91,7 +91,7 @@
         android:text="Forgot password?"
         android:textStyle="normal"
         android:textColor="#FB344F"
-        android:paddingLeft="90dp"/>
+        android:paddingLeft="50dp"/>
 
     </LinearLayout>
 
