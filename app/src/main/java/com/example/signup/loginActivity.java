@@ -18,8 +18,8 @@ public class loginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
-
-                forgotbtn.setOnClickListener(new View.OnClickListener() {
+         TextView forgotbtn=findViewById(R.id.forgotbtn);
+         forgotbtn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         Intent intent = new Intent(loginActivity.this, ForgotPasswordActivity.class);
