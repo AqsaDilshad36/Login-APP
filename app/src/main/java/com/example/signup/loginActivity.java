@@ -23,6 +23,7 @@ public class loginActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         Intent intent = new Intent(loginActivity.this, ForgotPasswordActivity.class);
+                        startActivity(intent);
                     }
                 });
             }

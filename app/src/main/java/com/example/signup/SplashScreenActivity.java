@@ -24,7 +24,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             public void run() {
                 Intent intent=new Intent(SplashScreenActivity.this,loginActivity.class);
                 startActivity(intent);
-                finish();
+
             }
         },4000);//For Event start after delay
         
