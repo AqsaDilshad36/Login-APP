@@ -19,23 +19,16 @@ public class ResetPasswordActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_reset_password);
-        TextView forgotbtn=findViewById(R.id.resetbtn);
-        forgotbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(loginActivity.this, ForgotPasswordActivity.class);
-            }
-        });
-
-
         TextView resetbtn=findViewById(R.id.resetbtn);
         resetbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(ResetPasswordActivity.this,PasswordChangeActivity.class);
+                Intent intent = new Intent(ResetPasswordActivity.this,PasswordChangeActivity.class);
                 startActivity(intent);
             }
         });
+
+
 
     }
 }
