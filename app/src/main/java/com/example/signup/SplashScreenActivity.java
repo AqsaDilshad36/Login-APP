@@ -1,6 +1,8 @@
 package com.example.signup;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +18,15 @@ public class SplashScreenActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_splash_screen);
 
+        Handler handler=new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent=new Intent(SplashScreenActivity.this,loginActivity.class);
+                startActivity(intent);
 
+            }
+        },4000);//For Event start after delay
         
     }
 }
