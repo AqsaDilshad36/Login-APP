@@ -17,7 +17,7 @@ public class PasswordChangeActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_password_change);
 
-        Intent intent=new Intent()
+        Intent intent=new Intent();
 
     }
 }
