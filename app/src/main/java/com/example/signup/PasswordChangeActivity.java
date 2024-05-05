@@ -20,8 +20,8 @@ public class PasswordChangeActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_password_change);
 
-        TextView loginbtn=findViewById(R.id.loginbtn);
-        loginbtn.setOnClickListener(new View.OnClickListener() {
+        TextView backlogin=findViewById(R.id.backlogin);
+        backlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
