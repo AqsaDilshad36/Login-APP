@@ -16,23 +16,22 @@
             android:text="Hi,Welcome Back!"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:textColor="#000000"
-            android:layout_marginTop="50dp"/>
+            android:layout_marginTop="20dp"
+            android:textColor="#000000" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello again, you’ve been missed!"
             android:textStyle="bold"
-            android:textColor="#999EA1"
-            android:paddingTop="5dp"/>
+            android:textColor="#999EA1" />
 
 
          <TextView
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
              android:text="Email"
-             android:paddingTop="40dp"
+             android:layout_marginTop="40dp"
              android:textStyle="bold"
              android:textColor="#4E0189"
              android:textSize="14dp"/>
@@ -41,10 +40,13 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:hint="sophat.leat@nintrea.live"
+           android:padding="15dp"
            android:drawableLeft="@drawable/baseline_email_24"
            android:drawableTint="#A9A9A9"
            android:drawablePadding="8dp"
-           android:textSize="15dp" />
+           android:textSize="15dp"
+           android:layout_marginTop="8dp"
+           android:inputType="textEmailAddress"/>
 
 
     <TextView
@@ -52,7 +54,7 @@
         android:layout_height="wrap_content"
         android:text="Password"
         android:textColor="#4E0189"
-        android:paddingTop="30dp"
+        android:layout_marginTop="15dp"
         android:textStyle="bold"
         android:textSize="14dp"/>
 
@@ -60,11 +62,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="please enter your password"
-        android:drawableRight="@drawable/eye"
+        android:padding="15dp"
         android:drawableStart="@drawable/lock"
-        android:drawableTint="#A9A9A9"
+        android:drawableRight="@drawable/eye"
         android:drawablePadding="8dp"
-        android:textSize="15dp" />
+        android:drawableTint="#A9A9A9"
+        android:textSize="15dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"/>
 
 
 
@@ -103,7 +108,7 @@
         android:paddingStart="90dp"
         android:paddingEnd="90dp"
         android:hint="Login"
-        android:textColor="#700B0B"/>
+        android:backgroundTint="#673AB7"/>
 
     <LinearLayout
         android:layout_width="match_parent"
