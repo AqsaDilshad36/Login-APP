@@ -1,4 +1,4 @@
-package com.example.signup;
+package Learning;
 
 import android.os.Bundle;
 
@@ -8,14 +8,15 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class CustomShape_Activity extends AppCompatActivity {
+import com.example.signup.R;
+
+public class Custom_shapes_Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_custom_shape);
-
+        setContentView(R.layout.activity_custom_shapes);
 
     }
 }
