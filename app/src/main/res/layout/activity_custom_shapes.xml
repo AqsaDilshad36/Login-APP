@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation=""
+    android:orientation="vertical"
     tools:context="Learning.Custom_shapes_Activity">
 
     <TextView
@@ -16,6 +16,37 @@
         android:text="Solid Bg"
         android:textSize="40dp"
         android:textcolor="#000" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/gradient_bg"
+        android:text="Gradient Bg"
+        android:textSize="40dp"
+        android:textcolor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_outline"
+        android:text="Outline "
+        android:padding="10dp"
+        android:textSize="40dp"
+        android:textcolor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_outline_dashed"
+        android:text="Dashed Outline "
+        android:padding="20dp"
+        android:textSize="40dp"
+        android:textcolor="#000" />
+
 
 
 </LinearLayout>
